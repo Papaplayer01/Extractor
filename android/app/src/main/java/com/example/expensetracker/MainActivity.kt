@@ -99,7 +99,7 @@ fun LoginScreen(busy: Boolean, onSubmit: (String, String, Boolean) -> Unit) {
     Column(Modifier.fillMaxSize().ambient().padding(28.dp), verticalArrangement = Arrangement.Center) {
         Staggered(0) {
             Text(
-                "Expense\nTracker",
+                "ExTractor  ",
                 style = TextStyle(
                     brush = Brush.linearGradient(listOf(Blue, Indigo, Purple)),
                     fontSize = 52.sp, lineHeight = 54.sp, fontWeight = FontWeight.Bold, letterSpacing = (-1.5).sp
