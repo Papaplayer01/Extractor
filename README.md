@@ -1,4 +1,4 @@
-# Expense Tracker (Android + Django REST)
+# Extractor (Android + Django REST)
 
 An offline-first expense tracker. The Android app is built with Kotlin and Jetpack Compose (MVVM with ViewModel and StateFlow), Retrofit for REST/JSON, and Room as a local cache. The backend is Django REST Framework with JWT login.
 
@@ -27,7 +27,9 @@ All reads come from Room. Adds, edits and deletes are written to Room first and 
 | PUT/DELETE | /api/expenses/{id}/ | Update / delete |
 
 ## Screenshots
-Add login, list and edit screenshots here.
+| Login | Expenses | Add expense |
+|---|---|---|
+| <img src="screenshots/login.png" width="220"> | <img src="screenshots/list.png" width="220"> | <img src="screenshots/add.png" width="220"> |
 
 ## Optional: Firebase
 Create a Firebase project, add the Android app, place `google-services.json` in `app/`, and add the Firebase BoM plus Firebase Auth or Cloud Messaging dependencies.
